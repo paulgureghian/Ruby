@@ -5,3 +5,14 @@
 
 # Start of script. #
 
+# Set the following variables to the proper values. #
+num = 25
+
+boolean = true
+
+string = "Ruby"
+
+# Print the variables values. #
+puts num
+puts boolean
+puts string
