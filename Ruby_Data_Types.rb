@@ -23,3 +23,7 @@ modulo = 25 % 7
 
 puts exponent
 puts modulo
+
+# 'puts and 'print'. #
+puts "Paul"
+print "Gureghian"
