@@ -16,3 +16,10 @@ string = "Ruby"
 puts num
 puts boolean
 puts string
+
+# Math operators. #
+exponent = 2**3
+modulo = 25 % 7
+
+puts exponent
+puts modulo
