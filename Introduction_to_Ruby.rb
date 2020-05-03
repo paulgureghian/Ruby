@@ -1,7 +1,8 @@
 #!/usr/bin/env ruby
+# frozen_string_literal: true
 
 # Created by Paul A. Gureghian in May 2020. #
-# This Ruby script covers three Ruby data types: Numbers, Strings, Booleans. #
+# This Ruby script is an introduction to Ruby. #
 
 # Start of script. #
 
@@ -10,7 +11,7 @@ num = 25
 
 boolean = true
 
-string = "Ruby"
+string = 'Ruby'
 
 # Print the variables values. #
 puts num
@@ -25,5 +26,5 @@ puts exponent
 puts modulo
 
 # 'puts and 'print'. #
-puts "Paul"
-print "Gureghian"
+puts 'Paul'
+print "Gureghian\n"
