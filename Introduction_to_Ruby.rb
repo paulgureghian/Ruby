@@ -31,3 +31,6 @@ print "Gureghian\n"
 
 # The '.length' Method. #
 puts 'I am Paul Gureghian'.length
+
+# The '.reverse' Method. #
+puts 'I am Paul Gureghian'.reverse
