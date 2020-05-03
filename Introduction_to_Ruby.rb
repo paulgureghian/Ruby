@@ -38,3 +38,7 @@ puts 'I am Paul Gureghian'.reverse
 # The '.upcase' and '.downcase' Methods. #
 puts 'Paul Gureghian'.upcase
 puts 'Paul Gureghian'.downcase
+
+# Create a local variable. #
+name = 'Paul'
+puts name
