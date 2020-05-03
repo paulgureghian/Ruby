@@ -42,3 +42,10 @@ puts 'Paul Gureghian'.downcase
 # Create a local variable. #
 name = 'Paul'
 puts name
+
+# Variables and Data Types. #
+name = 'Paul'
+puts name
+
+age = 55
+puts age
