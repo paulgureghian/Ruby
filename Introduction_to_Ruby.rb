@@ -28,3 +28,6 @@ puts modulo
 # 'puts and 'print'. #
 puts 'Paul'
 print "Gureghian\n"
+
+# The '.length' Method. #
+puts 'I am Paul Gureghian'.length
