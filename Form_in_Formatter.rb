@@ -30,3 +30,5 @@ puts "Your first name is #{first_name}"
 puts "Your last name is #{last_name}"
 puts "Your city is #{city}"
 puts "Your state is #{state}"
+
+# End of script. #
