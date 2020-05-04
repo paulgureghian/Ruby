@@ -63,3 +63,5 @@ puts quotient
 # Strings and String Methods. #
 name = 'Paul'.downcase.reverse.upcase
 puts name
+
+# End of script. #
