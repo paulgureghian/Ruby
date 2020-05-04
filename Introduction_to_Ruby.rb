@@ -49,3 +49,13 @@ puts name
 
 age = 55
 puts age
+
+# Math. #
+sum = 13 + 379
+puts sum
+
+product = 923 * 15
+puts product
+
+quotient = 13209 / 17
+puts quotient
