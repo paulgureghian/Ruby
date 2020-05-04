@@ -2,6 +2,9 @@
 # frozen_string_literal: true
 
 # Created by Paul A. Gureghian in May 2020. #
-# This Ruby script is an introduction to Ruby. #
+# This Ruby script demos user input formatting. #
 
 # Start of script. #
+
+# Prompt the user. #
+print "What's your first name?\n"
