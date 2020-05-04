@@ -57,7 +57,7 @@ puts sum
 product = 923 * 15
 puts product
 
-quotient = 13209 / 17
+quotient = 132_09 / 17
 puts quotient
 
 # Strings and String Methods. #
