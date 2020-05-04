@@ -19,6 +19,12 @@ city = gets.chomp
 print "What's your state's abbreviation?\n"
 state = gets.chomp
 
+# Formatting the output with string methods. #
+first_name.capitalize!
+last_name.capitalize!
+city.capitalize!
+state.upcase!
+
 # Print the Output. #
 puts "Your first name is #{first_name}"
 puts "Your last name is #{last_name}"
