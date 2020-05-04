@@ -59,3 +59,7 @@ puts product
 
 quotient = 13209 / 17
 puts quotient
+
+# Strings and String Methods. #
+name = 'Paul'.downcase.reverse.upcase
+puts name
