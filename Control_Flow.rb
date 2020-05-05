@@ -16,4 +16,8 @@ if user_num < 0
 elsif user_num > 0  
   puts "Positive integer was inputed"
     
-    
+else 
+  puts "Zero was inputed"
+  
+end
+  
