@@ -22,7 +22,7 @@ state = gets.chomp
 # Formatting the output with string methods. #
 first_name.capitalize!
 last_name.capitalize!
-city.capitalize!
+city = city.split(' ').collect(&:capitalize).join(' ')
 state.upcase!
 
 # Print the Output. #
