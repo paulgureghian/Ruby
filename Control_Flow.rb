@@ -11,6 +11,9 @@ print "Integer please: \n"
 user_num = Integer(gets.chomp)
 
 if user_num < 0
-    puts "Negative integer was inputed"
+  puts "Negative integer was inputed"
 
+elsif user_num > 0  
+  puts "Positive integer was inputed"
+    
     
