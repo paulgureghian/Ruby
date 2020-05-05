@@ -13,10 +13,10 @@ user_num = Integer(gets.chomp)
 if user_num < 0
   puts 'Negative integer was inputed'
 
-elsif user_num > 0  
+elsif user_num > 0
   puts 'Positive integer was inputed'
-    
-else 
+   
+else
   puts 'Zero was inputed'
   
 end
