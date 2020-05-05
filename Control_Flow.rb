@@ -20,4 +20,6 @@ else
   puts "Zero was inputed"
   
 end
-  
+
+# End of script. #
+ 
