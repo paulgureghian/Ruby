@@ -6,3 +6,7 @@
 
 # Start of script. # 
 
+# Prompt user for input. #
+print "Enter your name: "
+name = gets.chomp
+
