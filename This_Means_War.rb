@@ -10,3 +10,6 @@
 print "Enter your name: "
 name = gets.chomp
 
+# Downcase the input. #
+name = name.downcase!
+puts name
