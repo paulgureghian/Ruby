@@ -6,6 +6,7 @@
 
 # Start of script. #
 
+# Prompt for input. #
 print "Integer please: \n"
 user_num = Integer(gets.chomp)
 
