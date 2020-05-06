@@ -11,5 +11,10 @@ print "Enter your name: "
 name = gets.chomp
 
 # Downcase the input. #
-name = name.downcase!
+name.downcase!
 puts name
+
+# Add an 'if' statement. #
+if name.include? 'p' 
+  print 'This name has a p.'
+end
