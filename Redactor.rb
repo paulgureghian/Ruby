@@ -13,3 +13,6 @@ text = gets.chomp
 puts "Word to redact: "
 redact = gets.chomp
 
+# Divide the input with the '.split' method. #
+words = text.split(" ")
+
