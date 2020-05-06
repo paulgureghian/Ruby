@@ -12,7 +12,7 @@ name = gets.chomp
 
 # Downcase the input. #
 name.downcase!
-puts "Your name is: #{name}"
+puts "Your downcased name is: #{name}."
 
 # Add an 'if / else' control flow. #
 if name.include? 's'
