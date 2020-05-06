@@ -14,8 +14,10 @@ name = gets.chomp
 name.downcase!
 puts name
 
-# Add an 'if' statement. #
+# Add an 'if / else' control flow. #
 if name.include? 's' 
   name.gsub!(/s/, 'th')
+else
+  puts "There are no 's's in the name"  
 end
  
