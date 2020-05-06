@@ -6,3 +6,10 @@
 
 # Start of script. #
 
+# Prompt user for input. #
+puts "Enter text to search through: "
+text = gets.chomp
+
+puts "Word to redact: "
+redact = gets.chomp
+
