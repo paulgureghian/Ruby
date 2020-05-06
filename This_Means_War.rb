@@ -18,6 +18,7 @@ puts "Your downcased name is: #{name}."
 if name.include? 's'
 
   name.gsub!(/s/, 'th')
+  puts "There are 's's in your name."
   puts "Your transformed name is: #{name}."
 
 else
