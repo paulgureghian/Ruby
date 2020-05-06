@@ -12,12 +12,14 @@ name = gets.chomp
 
 # Downcase the input. #
 name.downcase!
-puts name
+puts 'Your name is: #{name}.'
 
 # Add an 'if / else' control flow. #
 if name.include? 's' 
   name.gsub!(/s/, 'th')
 else
-  puts "There are no 's's in the name"  
+  puts "There are no 's's in the name."  
 end
- 
+
+# Print the transformed input string. #
+puts "The transformed name is: #{name}."
