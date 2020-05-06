@@ -16,14 +16,15 @@ puts "Your downcased name is: #{name}."
 
 # Add an 'if / else' control flow. #
 if name.include? 's'
+
   name.gsub!(/s/, 'th')
+  puts "Your transformed name is: #{name}."
 
 else
+
   puts "There are no 's's in the name."
+  puts 'Your name was not transformed.'
 
 end
-
-# Print the transformed input string. #
-puts "The transformed name is: #{name}."
 
 # End of script. #
