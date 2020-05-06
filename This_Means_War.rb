@@ -18,7 +18,7 @@ puts "Your name is: #{name}"
 if name.include? 's'
   name.gsub!(/s/, 'th')
 else
-  puts "There are no 's's in the name." 
+  puts "There are no 's's in the name."
 end
 
 # Print the transformed input string. #
