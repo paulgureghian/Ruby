@@ -23,3 +23,5 @@ end
 
 # Print the transformed input string. #
 puts "The transformed name is: #{name}."
+
+# End of script. #
