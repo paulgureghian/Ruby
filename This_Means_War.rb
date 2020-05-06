@@ -15,6 +15,7 @@ name.downcase!
 puts name
 
 # Add an 'if' statement. #
-if name.include? 'p' 
-  print 'This name has a p.'
+if name.include? 's' 
+  name.gsub!(/s/, 'th')
 end
+ 
