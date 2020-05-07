@@ -7,10 +7,10 @@
 # Start of script. #
 
 # Prompt user for input. #
-puts 'Enter text to search through: '
+puts "Enter text to search through: \n"
 text = gets.chomp
 
-puts 'Word to redact: '
+puts "Word to redact: \n"
 redact = gets.chomp
 
 # Divide the input with the '.split' method. #
