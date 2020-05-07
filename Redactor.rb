@@ -7,14 +7,14 @@
 # Start of script. #
 
 # Prompt user for input. #
-puts "Enter text to search through: \n"
+puts 'Enter text to search through: '
 text = gets.chomp
 
-puts "Word to redact: \n"
+puts 'Word to redact: '
 redact = gets.chomp
 
 # Divide the input with the '.split' method. #
 words = text.split(' ')
 
 # Use a '.each' loop to iterate through and print the words. #
-words.each { |word| puts word }
+words.each { |word| print word }
