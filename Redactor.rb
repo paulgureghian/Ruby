@@ -16,3 +16,5 @@ redact = gets.chomp
 # Divide the input with the '.split' method. #
 words = text.split(" ")
 
+# Use a '.each' loop to iterate through and print the words. #
+words.each { |word| print word }
