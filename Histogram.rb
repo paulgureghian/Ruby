@@ -7,3 +7,8 @@
 # Start of script. #
 
 # Get user input. #
+puts 'Enter a phrase you'd like to analyze: '
+text = gets.chomp
+
+
+
