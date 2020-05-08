@@ -28,6 +28,7 @@ puts "\n"
 # Iterate over the array. #
 words.each { |word| frequencies[word] += 1 }
 puts "The Hash key-value pairs are: #{frequencies}"
+puts "\n"
 
 # Sort the Hash. #
 frequencies = frequencies.sort_by do |word, count|
