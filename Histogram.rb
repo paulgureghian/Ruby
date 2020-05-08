@@ -38,3 +38,12 @@ end
 # Reverse and print the hash. #
 frequencies.reverse!
 puts "The Hash key-value pairs after sorting and reversing: #{frequencies}."
+puts "\n"
+
+# Iterate over the Hash & print the key-value pairs. #
+frequencies.each do |word, count|
+    
+    puts "The key-value pairs are: " 
+    puts word + ' ' + count.to_s
+
+end    
