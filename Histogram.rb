@@ -15,5 +15,9 @@ words = text.split
 
 # Create a default hash. #
 frequencies = Hash.new(0)
+
+print 'The value of the default hash is: '
 puts frequencies
+
+print "The value stored by the key 'paul': "
 puts frequencies["paul"]
