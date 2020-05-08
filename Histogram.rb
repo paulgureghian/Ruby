@@ -24,3 +24,4 @@ puts frequencies["paul"]
 
 # Iterate over the array. #
 words.each { |word| frequencies[word] += 1 }
+puts "The Hash: #{frequencies}"
