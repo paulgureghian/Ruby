@@ -34,5 +34,6 @@ frequencies = frequencies.sort_by do |word, count|
     count
 end 
 
-
-
+# Reverse and print the hash. #
+frequencies.reverse!
+puts "The Hash key-value pairs after sorting and reversing: #{frequencies}."
