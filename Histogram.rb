@@ -21,3 +21,5 @@ puts frequencies
 
 print "The value stored by the key 'paul': "
 puts frequencies["paul"]
+
+# Iterate over the array. #
