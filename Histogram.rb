@@ -23,3 +23,4 @@ print "The value stored by the key 'paul': "
 puts frequencies["paul"]
 
 # Iterate over the array. #
+words.each { |word| frequencies[word] += 1 }
