@@ -21,10 +21,10 @@ words.each { |word|
 
   if word == redact
     print "REDACTED \n"
-    
-  else 
-    print word + " " 
-         
+  
+  else
+    print word + " "
+       
   end }
 
-  # End of script. #
+# End of script. #
