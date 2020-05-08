@@ -9,6 +9,7 @@
 # Get user input. #
 puts 'Enter a phrase you would like to analyze: '
 text = gets.chomp
+puts "\n"
 
 # Call the .split string method. #
 words = text.split
