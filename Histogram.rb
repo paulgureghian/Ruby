@@ -10,5 +10,5 @@
 puts 'Enter a phrase you'd like to analyze: '
 text = gets.chomp
 
-
+# Call the .split string method. #
 
