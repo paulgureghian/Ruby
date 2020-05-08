@@ -7,9 +7,13 @@
 # Start of script. #
 
 # Get user input. #
-puts 'Enter a phrase you'd like to analyze: '
+puts 'Enter a phrase you would like to analyze: '
 text = gets.chomp
 
 # Call the .split string method. #
 words = text.split
 
+# Create a default hash. #
+frequencies = Hash.new(0)
+puts frequencies
+puts frequencies["paul"]
