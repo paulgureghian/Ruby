@@ -41,9 +41,9 @@ puts "The Hash key-value pairs after sorting and reversing: #{frequencies}."
 puts "\n"
 
 # Iterate over the Hash & print the key-value pairs. #
+puts "The key-value pairs are: " 
 frequencies.each do |word, count|
     
-    puts "The key-value pairs are: " 
     puts word + ' ' + count.to_s
 
 end    
