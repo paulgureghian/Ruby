@@ -47,3 +47,5 @@ frequencies.each do |word, count|
     puts word + ' ' + count.to_s
 
 end    
+
+# End of script. #
