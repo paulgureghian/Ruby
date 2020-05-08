@@ -17,5 +17,14 @@ redact = gets.chomp
 words = text.split(' ')
 
 # Use a '.each' loop to iterate through and print the words. #
-words.each { |word| print word }
-puts "\n"
+words.each { |word|
+
+  if word == redact
+    print "REDACTED \n"
+    
+  else 
+    print word + " " 
+         
+  end }
+
+  # End of script. #
