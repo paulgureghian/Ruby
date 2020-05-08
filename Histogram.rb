@@ -6,3 +6,4 @@
 
 # Start of script. #
 
+# Get user input. #
