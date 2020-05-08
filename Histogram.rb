@@ -18,9 +18,11 @@ frequencies = Hash.new(0)
 
 print 'The value of the default hash is: '
 puts frequencies
+puts "\n"
 
 print "The value stored by the key 'paul': "
 puts frequencies["paul"]
+puts "\n"
 
 # Iterate over the array. #
 words.each { |word| frequencies[word] += 1 }
