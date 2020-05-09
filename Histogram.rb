@@ -22,7 +22,7 @@ puts frequencies
 puts "\n"
 
 print "The value stored by the key 'paul': "
-puts frequencies["paul"]
+puts frequencies['paul']
 puts "\n"
 
 # Iterate over the array. #
@@ -32,7 +32,7 @@ puts "\n"
 
 # Sort the Hash. #
 frequencies = frequencies.sort_by do |word, count|
-    count
+  count
 end 
 
 # Reverse and print the hash. #
@@ -41,10 +41,10 @@ puts "The Hash key-value pairs after sorting and reversing: #{frequencies}."
 puts "\n"
 
 # Iterate over the Hash & print the key-value pairs. #
-puts "The key-value pairs are: " 
+puts 'The key-value pairs are: ' 
 frequencies.each do |word, count|
     
-    puts word + ' ' + count.to_s
+  puts word + ' ' + count.to_s
 
 end    
 
