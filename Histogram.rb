@@ -27,17 +27,22 @@ puts "\n"
 
 # Iterate over the array. #
 words.each { |word| frequencies[word] += 1 }
-puts "The Hash key-value pairs are: #{frequencies}"
+puts "The Hash key-value pairs are: "
+puts "#{frequencies}"
 puts "\n"
 
 # Sort the Hash. #
 frequencies = frequencies.sort_by do |word, count|
-  count
+  
+  print word
+  print count
+
 end 
 
 # Reverse and print the hash. #
 frequencies.reverse!
-puts "The Hash key-value pairs after sorting and reversing: #{frequencies}."
+puts "The Hash key-value pairs after sorting and reversing: "
+puts "#{frequencies}"
 puts "\n"
 
 # Iterate over the Hash & print the key-value pairs. #
