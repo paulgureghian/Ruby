@@ -21,13 +21,13 @@ print 'The value of the default hash is: '
 puts frequencies
 puts "\n"
 
-print "The value stored by the key 'paul': "
+print 'The value stored by the key 'paul': '
 puts frequencies['paul']
 puts "\n"
 
 # Iterate over the array. #
 words.each { |word| frequencies[word] += 1 }
-puts "The Hash key-value pairs are: "
+puts 'The Hash key-value pairs are: '
 puts "#{frequencies}"
 puts "\n"
 
@@ -41,7 +41,7 @@ end
 
 # Reverse and print the hash. #
 frequencies.reverse!
-puts "The Hash key-value pairs after sorting and reversing: "
+puts 'The Hash key-value pairs after sorting and reversing: '
 puts "#{frequencies}"
 puts "\n"
 
