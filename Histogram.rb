@@ -21,7 +21,7 @@ print 'The value of the default hash is: '
 puts frequencies
 puts "\n"
 
-print 'The value stored by the key 'paul': '
+print 'The value stored by the key "paul": '
 puts frequencies['paul']
 puts "\n"
 
