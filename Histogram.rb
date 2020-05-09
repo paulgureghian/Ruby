@@ -34,8 +34,8 @@ puts "\n"
 # Sort the Hash. #
 frequencies = frequencies.sort_by do |word, count|
   
-  print "The value of word is: #{word} "\n""
-  print "The value of count is: #{count} "\n""
+  print "The value of word is: #{word} \n"
+  print "The value of count is: #{count} \n"
   
 end 
 
