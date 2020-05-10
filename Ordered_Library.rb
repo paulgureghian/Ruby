@@ -11,6 +11,13 @@ def alphabetize(arr, rev=false)
 
 arr.sort!
 
+if rev == true
+  arr.reverse!   
+
+else 
+  arr
+  
+end  
 end    
 
 # Call the method & print the output. # 
