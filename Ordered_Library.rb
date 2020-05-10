@@ -12,3 +12,7 @@ def alphabetize(arr, rev=false)
 arr.sort!
 
 end    
+
+numbers = [6, 2, 9, 4]
+alphabetize(numbers)
+print numbers
