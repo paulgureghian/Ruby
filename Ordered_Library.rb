@@ -15,4 +15,6 @@ end
 
 numbers = [6, 2, 9, 4]
 alphabetize(numbers)
-print numbers
+puts "\n"
+print "The numbers array is: #{numbers} \n"
+puts "\n"
