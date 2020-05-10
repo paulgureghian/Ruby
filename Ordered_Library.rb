@@ -13,6 +13,7 @@ arr.sort!
 
 end    
 
+# Call the method & print the output. # 
 numbers = [6, 2, 9, 4]
 alphabetize(numbers)
 puts "\n"
