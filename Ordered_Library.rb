@@ -7,3 +7,6 @@
 # Start of script. #
 
 # Define a sorting method. #
+def alphabetize()
+
+end    
