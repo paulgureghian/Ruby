@@ -7,6 +7,6 @@
 # Start of script. #
 
 # Define a sorting method. #
-def alphabetize()
+def alphabetize(arr, rev=false)
 
 end    
