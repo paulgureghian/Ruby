@@ -32,15 +32,20 @@ puts "#{frequencies}"
 puts "\n"
 
 # Sort the Hash. #
-frequencies = frequencies.sort_by do |word, count|
+frequencies = frequencies.sort_by do |_, count| 
   
-  print "The value of word is: #{word} \n"
-  print "The value of count is: #{count} \n"
-  
+  count
+    
 end 
+
+# Print the sorted Hash by count. #
+puts 'The hash after sorting is: '
+print frequencies
 
 # Reverse and print the hash. #
 frequencies.reverse!
+puts "\n"
+puts "\n"
 puts 'The Hash key-value pairs after sorting and reversing: '
 puts "#{frequencies}"
 puts "\n"
