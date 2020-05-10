@@ -9,4 +9,6 @@
 # Define a sorting method. #
 def alphabetize(arr, rev=false)
 
+arr.sort!
+
 end    
