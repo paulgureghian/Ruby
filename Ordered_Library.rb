@@ -7,22 +7,25 @@
 # Start of script. #
 
 # Define a sorting method. #
-def alphabetize(arr, rev=false)
+def alphabetize(arr, rev = false)
 
-arr.sort!
+  arr.sort!
 
-if rev == true
-  arr.reverse!   
+  if rev == true
+    arr.reverse!   
 
-else 
-  arr
+  else 
+    arr
   
-end  
+  end  
 end    
 
 # Call the method & print the output. # 
 numbers = [6, 2, 9, 4]
 alphabetize(numbers)
 puts "\n"
-print "The numbers array is: #{numbers} \n"
+print "The numbers array not reversed is: #{numbers} \n"
 puts "\n"
+
+alphabetize(numbers, rev == true)
+print "The numbers array reversed is: #{numbers} \n" 
