@@ -27,7 +27,8 @@ puts "\n"
 print "The numbers array not reversed is: #{numbers} \n"
 puts "\n"
 
-alphabetize(numbers, rev == true)
+alphabetize(numbers, rev = true)
 print "The numbers array reversed is: #{numbers} \n"
+puts "\n"
 
 # End of script. #
