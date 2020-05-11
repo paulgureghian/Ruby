@@ -28,4 +28,6 @@ print "The numbers array not reversed is: #{numbers} \n"
 puts "\n"
 
 alphabetize(numbers, rev == true)
-print "The numbers array reversed is: #{numbers} \n" 
+print "The numbers array reversed is: #{numbers} \n"
+
+# End of script. #
