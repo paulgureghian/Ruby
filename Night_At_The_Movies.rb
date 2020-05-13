@@ -13,3 +13,5 @@ movies = {
 
 puts "Do you like Alien?"
 answer = gets.chomp
+
+# Create a case statement. #
