@@ -15,3 +15,22 @@ puts "Do you like Alien?"
 answer = gets.chomp
 
 # Create a case statement. #
+case choice 
+  when "add"
+    puts "Added"
+  
+  when "update"
+    puts "Updated"
+
+  when "display"
+    puts "Movies"
+    
+  when "delete"
+    puts "Deleted"  
+      
+  else 
+    puts "Error"
+ 
+  end   
+      
+  
