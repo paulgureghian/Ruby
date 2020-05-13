@@ -7,3 +7,9 @@
 # Start of script. #
 
 #  Create a hash to hold movies / ratings. #
+movies = {
+  'alien' => '10'  
+}
+
+puts "Do you like Alien?"
+answer = gets.chomp
