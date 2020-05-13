@@ -51,7 +51,16 @@ case choice
   end    
     
   when "delete"
-    puts "Deleted"  
+    puts 'Enter a movie title'
+    title = gets.chomp
+    
+    if movies[title.to_sym].nil?
+      puts "That movie does not exist."
+
+    else
+      movies.delete(title.to_sym)
+      
+    end  
       
   else 
     puts "Error"
