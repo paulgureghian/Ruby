@@ -20,10 +20,15 @@ case choice
     puts "Add a movie"
     title = gets.chomp.to_sym
     
+    if movies[title.to_sym].nil?
     puts "Rate the movie"
-    rating = gets.chomp.to_i
-    
-    movies[title] = rating
+    rating = gets.chomp
+    movies[title.to_sym] = rating.to_i
+  
+    else 
+      puts "That movie already exists. Its rating is #{movies[title.to_sym]}."  
+
+    end  
   
   when "update"
     puts "Updated"
