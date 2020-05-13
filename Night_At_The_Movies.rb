@@ -6,3 +6,4 @@
 
 # Start of script. #
 
+#  Create a hash to hold movies / ratings. #
