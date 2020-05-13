@@ -17,7 +17,11 @@ answer = gets.chomp
 # Create a case statement. #
 case choice 
   when "add"
-    puts "Added"
+    puts "Add a movie"
+    title = gets.chomp
+    puts "Rate the movie"
+    rating = gets.chomp
+    movies[title.to_s] = rating
   
   when "update"
     puts "Updated"
