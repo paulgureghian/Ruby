@@ -18,10 +18,12 @@ answer = gets.chomp
 case choice 
   when "add"
     puts "Add a movie"
-    title = gets.chomp
+    title = gets.chomp.to_sym
+    
     puts "Rate the movie"
-    rating = gets.chomp
-    movies[title.to_s] = rating
+    rating = gets.chomp.to_i
+    
+    movies[title] = rating
   
   when "update"
     puts "Updated"
@@ -37,4 +39,4 @@ case choice
  
   end   
       
-  
+  # 
