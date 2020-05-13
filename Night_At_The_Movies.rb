@@ -8,7 +8,8 @@
 
 #  Create a hash to hold movies / ratings. #
 movies = {
-  'alien' => '10'  
+   Alien: 10.0,
+   Aliens: 9.0  
 }
 
 puts "Do you like Alien?"
