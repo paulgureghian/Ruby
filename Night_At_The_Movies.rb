@@ -46,7 +46,8 @@ when 'update'
     puts 'What is the new rating?'
     rating = gets.chomp
     movies[title.to_sym] = rating.to_i 
-    puts 'Movie rating was updated.'
+    puts 'Movie rating was updated:'
+    puts "#{movies}"
 
   end  
 
