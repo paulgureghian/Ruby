@@ -11,6 +11,8 @@ movies = {
   Alien: 10.0,
   Aliens: 9.0  
 }
+
+puts "\n"
 puts 'This program allows you to add, update, display and delete movies from a database.'
 puts 'Enter "add", "update", "display", or "delete":'
 choice = gets.chomp
