@@ -27,7 +27,8 @@ when 'add'
     puts 'Rate the movie:'
     rating = gets.chomp
     movies[title.to_sym] = rating.to_i
-  
+    puts 'Movie added to database.'
+    
   else 
     puts "That movie already exists and its rating is: #{movies[title.to_sym]}."  
 
@@ -44,6 +45,7 @@ when 'update'
     puts 'What is the new rating?'
     rating = gets.chomp
     movies[title.to_sym] = rating.to_i 
+    puts 'Movie rating was updated.'
 
   end  
 
@@ -61,6 +63,7 @@ when 'delete'
 
   else
     movies.delete(title.to_sym)
+    puts 'Movie was deleted from the database.'
       
   end  
       
