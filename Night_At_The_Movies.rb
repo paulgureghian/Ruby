@@ -27,7 +27,8 @@ when 'add'
     puts 'Rate the movie:'
     rating = gets.chomp
     movies[title.to_sym] = rating.to_i
-    puts 'Movie added to database.'
+    puts 'Movie added to database:'
+    puts "#{movies}"
     
   else 
     puts "That movie already exists and its rating is: #{movies[title.to_sym]}."  
