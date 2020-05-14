@@ -11,28 +11,28 @@ movies = {
   Alien: 10.0,
   Aliens: 9.0  
 }
-
-puts 'Enter "add", "update", "display", or "delete".'
+puts 'This program allows you to add, update, display and delete movies from a database.'
+puts 'Enter "add", "update", "display", or "delete":'
 choice = gets.chomp
 
 # Create a case statement. #
 case choice 
 when 'add'
-  puts 'Add a movie'
+  puts "Add a movie:"
   title = gets.chomp.to_sym
     
   if movies[title.to_sym].nil?
-    puts 'Rate the movie'
+    puts "Rate the movie:"
     rating = gets.chomp
     movies[title.to_sym] = rating.to_i
   
   else 
-    puts "That movie already exists. Its rating is #{movies[title.to_sym]}."  
+    puts "That movie already exists and its rating is: #{movies[title.to_sym]}."  
 
   end  
   
 when 'update'
-  puts 'What movie do you want to update?'
+  puts "What movie do you want to update?:"
   title = gets.chomp  
 
   if movies[title.to_sym].nil?
@@ -51,7 +51,7 @@ when 'display'
   end    
     
 when 'delete'
-  puts 'Enter a movie title'
+  puts "Enter a movie title to delete:"
   title = gets.chomp
     
   if movies[title.to_sym].nil?
@@ -63,7 +63,7 @@ when 'delete'
   end  
       
 else 
-  puts 'Error'
+  puts 'Error: Please enter "add", "update", "display", or "delete" into the prompt.'
  
 end   
       
