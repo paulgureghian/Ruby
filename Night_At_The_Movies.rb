@@ -33,7 +33,7 @@ when 'add'
   
 when 'update'
   puts 'What movie do you want to update?'
-  title.gets.chomp  
+  title = gets.chomp  
 
   if movies[title.to_sym].nil?
     puts 'That movie does not exist.'
