@@ -12,7 +12,7 @@ movies = {
   Aliens: 9.0  
 }
 
-puts 'Enter 'add', 'update', 'display', or 'delete'.'
+puts 'Enter "add", "update", "display", or "delete".'
 choice = gets.chomp
 
 # Create a case statement. #
