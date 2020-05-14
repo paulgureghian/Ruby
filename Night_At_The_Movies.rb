@@ -18,11 +18,11 @@ choice = gets.chomp
 # Create a case statement. #
 case choice 
 when 'add'
-  puts "Add a movie:"
+  puts 'Add a movie:'
   title = gets.chomp.to_sym
     
   if movies[title.to_sym].nil?
-    puts "Rate the movie:"
+    puts 'Rate the movie:'
     rating = gets.chomp
     movies[title.to_sym] = rating.to_i
   
@@ -32,7 +32,7 @@ when 'add'
   end  
   
 when 'update'
-  puts "What movie do you want to update?:"
+  puts 'What movie do you want to update?:'
   title = gets.chomp  
 
   if movies[title.to_sym].nil?
@@ -51,7 +51,7 @@ when 'display'
   end    
     
 when 'delete'
-  puts "Enter a movie title to delete:"
+  puts 'Enter a movie title to delete:'
   title = gets.chomp
     
   if movies[title.to_sym].nil?
