@@ -12,8 +12,8 @@ movies = {
   Aliens: 9.0  
 }
 
-puts 'Do you like Alien?'
-answer = gets.chomp
+puts 'Enter 'add', 'update', 'display', or 'delete'.'
+choice = gets.chomp
 
 # Create a case statement. #
 case choice 
