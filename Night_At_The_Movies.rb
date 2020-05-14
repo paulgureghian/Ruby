@@ -12,17 +12,17 @@ movies = {
    Aliens: 9.0  
 }
 
-puts "Do you like Alien?"
+puts 'Do you like Alien?'
 answer = gets.chomp
 
 # Create a case statement. #
 case choice 
   when "add"
-    puts "Add a movie"
+    puts 'Add a movie'
     title = gets.chomp.to_sym
     
     if movies[title.to_sym].nil?
-    puts "Rate the movie"
+    puts 'Rate the movie'
     rating = gets.chomp
     movies[title.to_sym] = rating.to_i
   
@@ -31,7 +31,7 @@ case choice
 
     end  
   
-  when "update"
+  when 'update'
     puts 'What movie do you want to update?'
     title.gets.chomp  
 
@@ -39,23 +39,23 @@ case choice
       puts 'That movie does not exist.'
     
     else 
-      puts "What is the new rating?"
+      puts 'What is the new rating?'
       rating = gets.chomp
       movies[title.to_sym] = rating.to_i 
 
     end  
 
-  when "display"
+  when 'display'
     movies.each do |title, rating|
       puts "#{title}: #{rating}"
   end    
     
-  when "delete"
+  when 'delete'
     puts 'Enter a movie title'
     title = gets.chomp
     
     if movies[title.to_sym].nil?
-      puts "That movie does not exist."
+      puts 'That movie does not exist.'
 
     else
       movies.delete(title.to_sym)
@@ -63,7 +63,7 @@ case choice
     end  
       
   else 
-    puts "Error"
+    puts 'Error'
  
   end   
       
