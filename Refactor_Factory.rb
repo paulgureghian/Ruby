@@ -12,19 +12,19 @@ require 'prime'
 # Define a method to refactor. #
 def first_n_primes(n)
 
-    unless n.is_a? Integer
+  unless n.is_a? Integer
         
-        return 'n must be an integer.'        
+    return 'n must be an integer.'        
     
-    end
+  end
 
-    if n <= 0 
+  if n <= 0 
         
-        return 'n must be greater than 0'
+    return 'n must be greater than 0'
     
-    end
+  end
         
-    return Prime.first n 
+  return Prime.first n 
 
 end
 
