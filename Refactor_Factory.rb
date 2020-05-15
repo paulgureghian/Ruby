@@ -28,6 +28,10 @@ def first_n_primes(n)
 
 end
 
-first_n_primes(10)
+puts "\n"
+puts "The output of the method is: "
+print first_n_primes(10)
+puts "\n"
+puts "\n"
 
 # End of program. #
