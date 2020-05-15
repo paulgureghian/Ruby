@@ -66,6 +66,7 @@ when 'delete'
   else
     movies.delete(title.to_sym)
     puts 'Movie was deleted from the database.'
+    puts "#{movies}"
       
   end  
       
