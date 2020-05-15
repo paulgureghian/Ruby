@@ -12,7 +12,7 @@ require 'prime'
 # Define a method to refactor. #
 def first_n_primes(n)
 
-    unless n.is.a? Integer
+    unless n.is_a? Integer
         
         return 'n must be an integer.'        
     
