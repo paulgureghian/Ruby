@@ -7,7 +7,7 @@
 # Start of program. #
 
 # Import a module. #
-
-
+require 'prime'
 
 # Define a method to refactor. #
+
