@@ -10,4 +10,24 @@
 require 'prime'
 
 # Define a method to refactor. #
+def first_n_primes(n)
 
+    unless n.is.a? Integer
+        
+        return 'n must be an integer.'        
+    
+    end
+
+    if n <= 0 
+        
+        return 'n must be greater than 0'
+    
+    end
+        
+    return Prime.first n 
+
+end
+
+first_n_primes(10)
+
+# End of program. #
