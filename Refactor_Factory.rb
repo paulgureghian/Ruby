@@ -6,3 +6,4 @@
 
 # Start of program. #
 
+# Define a method to refactor. #
