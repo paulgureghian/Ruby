@@ -36,4 +36,4 @@ class Computer
 end    
 
 # Instantiate the class. #
-paul_computer = Computer('paul', 'monkey123')
+paul_computer = Computer.new('paul', 'monkey123')
