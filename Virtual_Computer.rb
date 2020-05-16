@@ -28,7 +28,11 @@ class Computer
 
     end  
 
+    def Computer.get_users
 
+        @@users
+
+    end    
 
 
 
