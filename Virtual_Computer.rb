@@ -11,28 +11,28 @@ class Computer
   
   @@users = {}  
 
-    def initialize(username, password)
+  def initialize(username, password)
     
-        @username = username
-        @password = password
-        @@users[username] = password
-        @files = {}
+    @username = username
+    @password = password
+    @@users[username] = password
+    @files = {}
     
-    end    
+  end    
 
-    def create(filename)
+  def create(filename)
 
-        time = Time.now
-        @files[filename] = time
-        puts "#{filename} was created by #{username} at #{time}."
+    time = Time.now
+    @files[filename] = time
+    puts "#{filename} was created by #{username} at #{time}."
 
-    end  
+  end  
 
-    def Computer.get_users
+  def Computer.get_users
 
-        @@users
+    @@users
 
-    end   
+  end   
 end    
 
 # Instantiate the class. #
