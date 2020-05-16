@@ -16,7 +16,7 @@ def first_n_primes(n)
   
   return 'n must be greater than 0' if n <= 0   
         
-  return Prime.first n 
+  Prime.first n 
 
 end
 
