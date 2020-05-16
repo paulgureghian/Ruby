@@ -6,3 +6,10 @@
 
 # Start of program. #
 
+# Create the class. #
+class Computer
+
+    def initialize
+    end
+    
+end    
