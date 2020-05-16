@@ -2,7 +2,7 @@
 # frozen_string_literal: true
 
 # Created by Paul A.Gureghian in May 2020. #
-# This Ruby program demos the creation of a class and the genration of instances the class. #
+# This Ruby program demos the creation of a class and the generation of instances of the class. #
 
 # Start of program. #
 
