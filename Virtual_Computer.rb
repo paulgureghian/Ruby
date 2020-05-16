@@ -32,12 +32,8 @@ class Computer
 
         @@users
 
-    end    
-
-
-
-
-
-
-
+    end   
 end    
+
+# Instantiate the class. #
+paul_computer = Computer('paul', 'monkey123')
