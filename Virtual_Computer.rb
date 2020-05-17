@@ -39,9 +39,12 @@ end
 paul_computer = Computer.new('paul', 'monkey123')
 
 # Call the "create" class method and create a file. #
+puts "\n"
 paul_computer.create('ruby.txt')
+puts "\n"
 
 # Print out user(s) name(s). #
 puts "User(s): #{Computer.get_users}."
+puts "\n"
 
 # End of program. #
