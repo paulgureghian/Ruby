@@ -52,3 +52,4 @@ end
 end        
 
 # Instantiate the class. #
+checking_account = Account.new('Paul', 500_000)
