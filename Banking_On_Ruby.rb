@@ -55,3 +55,9 @@ end
 
 # Instantiate the class. #
 checking_account = Account.new('Paul', 500_000)
+
+# Call the public class methods. #
+checking_account.withdraw(1234, 50_000)
+checking_account.display_balance(1234)
+
+# End of program. #
