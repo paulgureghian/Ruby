@@ -19,6 +19,15 @@ class Account
 
     end
 
+    def display_balance(pin_number)
+
+        puts pin_number == pin ? "Balance is: $#{@balance}." : pin_error
+    end      
+
+
+
+
+
     private
 
     def pin 
