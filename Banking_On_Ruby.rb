@@ -49,17 +49,6 @@ end
       "Access denied: incorrect PIN."
       
     end   
-
-
-
-
-
-
-
-
-
-
-
-
-
 end        
+
+# Instantiate the class. #
